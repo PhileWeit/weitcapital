@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weit Capital</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link for js script -->
+    <script src="./script.js"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a name="top"></a>
+    <!-- My first responsive navigation with dropdown..not the best there ever was but hey,am proud -->
+    <nav class="topnav" id="myTopnav">
+        <a href="" class="active" >Home</a>
+
+        <!-- products we offer as weit capital -->
+        <div class="dropup">
+      <a class="not-active" tabindex="0">Products <i class="fa fa-caret-down"></i></a> 
+        <div class="more">
+            <ul>
+                <li><a href="#">Stocks Trading</a></li>
+                <li><a href="#">Forex</a></li>
+                <li><a href="#">Options</a></li>
+                <li><a href="#">Futures</a></li>
+            </ul>
+        </div>
+        </div>
+        <!-- more about us -->
+        <div class="dropup">
+        <a class="not-active">About <i class="fa fa-caret-down"></i></a> 
+        <div class="more">
+            <ul>
+                <li><a href="#">Founders</a></li>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Technologies</a></li>
+            </ul>
+        </div>
+        </div>
+        <!-- contacts -->
+        <div class="dropup">
+          <a class="not-active">Contact Us <i class="fa fa-caret-down"></i></a> 
+        <div class="more">
+            <ul>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Managing Director</a></li>
+                <li><a href="#">Tech Support</a></li>
+            </ul>
+        </div>
+        </div>
+        <!-- news about us -->
+        <div class="dropup">
+            <a class="not-active"> News <i class="fa fa-caret-down"></i></a>
+            
+        <div class="more">
+            <ul>
+                <li><a href="#">Upcoming Events</a></li>
+                <li><a href="#">Market Signals</a></li>
+                <li><a href="#">Free Giveaways</a></li>
+            </ul>
+        </div>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+            </a>
+    </nav>
+    <!-- page banner ->make it work -->
+    <div class="banner">
+       <div class="our-name">
+           <p>WEIT CAPITAL</p>
+        <div class="slogan"><p>Invest with us today and we will take care of you future</p>
+    </div>
+        </div>
+       
+    <div class="explore-button"><button><span>Explore our solutions <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></button>
+    </div>
+    </div>
+    <div class="our-products">
+        <div class="real-estate    product">
+            <h3>Real Estate</h3>
+            <p>We invest in real estate buying land in prime area within the city. We analyse the future value of land based on developments and proximity to the capital. Real estate has seen growth in the past years due to a high demand for land and houses by the increasing middle class</p>
+        </div>
+        <div class="forex   product">
+            <h3>Forex</h3>
+            <p>We invest in the forex market. This includes market analysis to determine costs of external loans to the government and local  corporates.This niche has grown considering there has been growth of international business transaction i.e imports and exports.</p>
+        </div>
+        <div class="stocks  product">
+            <h3>Stocks</h3>
+            <p>We invest in hot stocks locally as well as outside the borders. These are mainly companies that are undervalued and have the potential to grow exponentially in the near future. We also look to hold significant stakes in market disrupting firms betting on their futures. This has seen us hold stakes in companies like Tesla and Coin base which have really grown in the past years.</p>
+        </div>
+        <div class="bonds product">
+            <h3>Bonds</h3>
+            <p>We buy bonds sold by the government seeing the interest rates of developing countries like Kenya is relatively high as compared to developed ones. These include long term infrastructure as well as short term tresury bills. Our portfolios are mainly made up of these as they are quite risk free as governments do not default.</p>
+        </div>
+        
+    </div>
+
+    <!-- newsletter form -->
+    <div class="newsletter-form">
+    <div class="newsletter">
+        <h4>Subcribe to our Newsletter</h4>
+        <p>You will receive information rich emails every week. This concerns our company,plans,market news that will help you keep us withe the finance world</p>
+     <div class="myform">
+           <form action="">
+            <div class="name">
+            <label for="name"></label>
+            <input type="text" id="name" class="myinput" name="name" placeholder="Name">
+            </div>
+            <div class="email">
+            <label for="email"></label>
+            <input type="text" id="email" class="myinput" name="email" placeholder="abc@gmail.com">
+            </div>
+            <div class="confirm">
+            
+            <input type="checkbox" id="confirmation" name="confirmation" placeholder="abc@gmail.com">
+            <label for="confirmation">Subscribe Newsletter</label>
+            </div>
+            <div class="submit">
+            <label for="submit"></label>
+            <input type="submit" class="myinput" id="submit" name="submit" >
+            </div>
+        </form>
+     </div>
+
+    </div>
+    </div>
+    <div class="massive-footer">
+        <div class="kenya-contacts">
+            <h4>TALK TO US</h4>
+            <div>
+                <p>Kenya</p>
+                <p>P.O Box 156-10204 Nairobi,Kenya</p>
+            </div>
+            <div>
+                <p>Customer Care</p>
+                <p>Cell +2547123456</p>
+                <p>WhatsApp +254720030045 </p>
+                <p>Email: clientsservices@weit.com</p>
+            </div>
+            <div>
+                <p>General Inquiries</p>
+                <p>Cell +2547123456</p>
+                <p>Tel +25471234986</p>
+            </div>
+             <div>
+                <p>United States</p>
+                <p> +1(300)7123456</p>
+                <p>+1(300)21234986</p>
+            </div>
+
+
+        </div>
+        <div class="locations">
+           <div class="loc1">
+                <h4>KENYA</h4>
+            <p>6th and 7th Floor, The Chancery, Valley Road, Nairobi, Kenya</p>
+            <p>3rd Floor, Sohan Plaza, Kimathi Way, Nyeri, Kenya</p>
+           </div>
+           <div class="loc2">
+               <h4>USA</h4>
+               <p>Suite 1150, 1775 Eye Street NW, USA, Washington DC 20006, USA</p>
+           </div>
+        </div>
+        <!-- our digital platforms -->
+        <div class="digital-platforms">
+            <div><h4>OUR DIGITAL PLATFORMS</h4></div>
+            
+            <div class="digital-icons">
+                <span><a href="#"><img src="./images/googleplay.png" alt=""></a> </span>
+                <span><a href="#"><img src="./images/appstore1.png" alt=""></a> </span>
+                <span><a href="#"><img src="./images/ussd.png" alt=""></a> </span>
+            </div>
+            
+
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Whistle Blower</a>
+            <a href="#">Client Referrals</a>
+
+        </div>
+        <!-- bottom most footer -->
+        <div class="socials">
+            <div class="top-media">
+                <div class="backtop">
+                <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            <div class="media">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="online-chat">
+                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
